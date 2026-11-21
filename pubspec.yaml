@@ -1,0 +1,40 @@
+name: stark_vms_frontend
+description: "Stark Group Vehicle Management System – Assignment 1"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  dio: ^5.7.0
+  retrofit: ^4.4.1
+  json_annotation: ^4.9.0
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # UI
+  shadcn_ui: ^0.59.0
+  skeletonizer: ^3.0.0
+  infinite_scroll_pagination: ^4.1.0
+
+  # Local storage
+  hive_ce: ^2.9.0
+  hive_ce_flutter: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  retrofit_generator: ^8.2.1
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
